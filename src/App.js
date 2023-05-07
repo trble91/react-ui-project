@@ -1,10 +1,13 @@
 import './App.css';
-import Potter from './Potter.jsx'
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
   <>
-  <Potter />
+  <div className='App'>
+    <Navbar />
+  </div>
+  {/* <Potter /> */}
   </>
   );
 }
